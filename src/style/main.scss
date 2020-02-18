@@ -1,0 +1,20 @@
+@import 'breakpoints';
+@import 'variables';
+@import 'reset';
+
+
+body {
+  -webkit-text-size-adjust: 100%;
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-shadow: rgba($black, 0.01) 0 0 1px;
+  background-color: $shark;
+  color: $mercury;
+}
+
+a {
+  text-decoration: none;
+}
