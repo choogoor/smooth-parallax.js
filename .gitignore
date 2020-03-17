@@ -1,9 +1,2 @@
-.sass-cache/
-*.css.map
-
-node_modules/*
-npm-debug.log
-
-dist/*
-
-.DS_Store
+/example/
+/node_modules/
