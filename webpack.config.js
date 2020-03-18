@@ -2,13 +2,13 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: require.resolve('./src/scrolling-text.js'),
+  entry: require.resolve('./src/smooth-parallax.js'),
   context: __dirname,
   output: {
     path: path.resolve(__dirname, './'),
-    filename: 'dist/scrolling-text.min.js',
+    filename: 'dist/smooth-parallax.min.js',
     libraryExport: 'default',
-    library: 'ScrollingText',
+    library: 'SmoothParallax',
     libraryTarget: 'umd'
   },
   module: {
