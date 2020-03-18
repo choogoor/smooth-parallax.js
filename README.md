@@ -2,7 +2,7 @@
 
 Lightweight lib for smooth parallax image scroll effect, written in vanilla JS with no dependencies.
 
-[DEMO](https://codepen.io/choogoor/pen/rNVKdrd)
+DEMO - Coming Soon
 
 ## Usage
 
