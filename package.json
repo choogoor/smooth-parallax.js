@@ -1,6 +1,6 @@
 {
   "name": "smooth-parallax.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Pure lightweight JS library for smooth image parallax effect",
   "main": "dist/smooth-parallax.min.js",
   "files": [
