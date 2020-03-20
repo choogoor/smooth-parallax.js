@@ -35,7 +35,7 @@ export default class SmoothParalax {
       return;
     }
 
-    this.element.firstChild.style.transform = 'translateY(' + (this.scrollY - this.top) / this.options.speed + 'px)';
+    this.element.firstChild.style.transform = 'translateY(' + (this.scrollY - this.top) * this.options.speed / 100 + 'px)';
   }
 
   _isInViewport() {
